@@ -1,0 +1,33 @@
+.slide img{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#output-quadrati{
+  width: 287px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.quadrato{
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.nero{
+  background-color: black;
+}
+
+.bianco{
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.container-img img{
+  max-width: 100%;
+  min-width: 100%;
+}

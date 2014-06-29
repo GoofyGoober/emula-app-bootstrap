@@ -1,0 +1,19 @@
+.panel.panel-default
+  .panel-body
+    %form.form
+      .form-group
+        %label From
+        %input#text-input-sender.form-control{type: "email"}/
+      .form-group
+        %label To
+        %input#text-input-receiver.form-control{type: "email"}/
+    
+      .form-group
+        %label Message
+        %input#text-input-message.form-control{type: "text", maxlength: 10}/
+
+    #send-btn.btn.btn-success.btn-block Send
+
+#output-quadrati
+
+%script{src: 'js/form.js'}
